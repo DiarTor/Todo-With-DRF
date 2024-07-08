@@ -35,7 +35,7 @@ This is a simple Todo application built with Django and Django REST Framework (D
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/Todo-With-DRF.git
+   git clone https://github.com/DiarTor/todo-project.git
    cd todo-app-django-drf
    ```
 
