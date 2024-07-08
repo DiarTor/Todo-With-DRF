@@ -7,7 +7,6 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
 - [Running Tests](#running-tests)
 - [Contributing](#contributing)
 - [License](#license)
@@ -78,19 +77,7 @@ This is a simple Todo application built with Django and Django REST Framework (D
 ## Usage
 
 - Use the Django admin panel to manage users and tasks at `http://127.0.0.1:8000/admin/`
-- Use API endpoints to interact with tasks (see below).
-
-## API Endpoints
-
-| Method | Endpoint                | Description                  |
-|--------|-------------------------|------------------------------|
-| POST   | /api/register/          | Register a new user          |
-| POST   | /api/login/             | Obtain authentication token  |
-| GET    | /api/tasks/             | List all tasks               |
-| POST   | /api/tasks/             | Create a new task            |
-| GET    | /api/tasks/{id}/        | Retrieve a task by ID        |
-| PUT    | /api/tasks/{id}/        | Update a task by ID          |
-| DELETE | /api/tasks/{id}/        | Delete a task by ID          |
+- Use API endpoints to interact with tasks
 
 ### Authentication
 
